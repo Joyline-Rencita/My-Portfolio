@@ -117,27 +117,23 @@ const srtop = ScrollReveal({
 
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
+
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .projects', { interval: 200 });
-srtop.reveal('.work .projects .project-card', { interval: 400 });
+
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+
 
 // Function to filter projects by category
 function filterProjects(category) {
