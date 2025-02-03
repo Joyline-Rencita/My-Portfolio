@@ -65,11 +65,6 @@ header {
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1.7rem 10%;
-  height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
   min-height: 100vh;
@@ -99,8 +94,6 @@ header .logo:hover {
 header .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 header .navbar li {
   margin-left: 2.5rem;
@@ -137,8 +130,6 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
     right: -120%;
     width: 75%;
     height: 100%;
-    text-align: left;
-    align-items: flex-start;
     background-color: #0e0f31;
   }
   header .navbar ul {
@@ -290,11 +281,6 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
   width: 44px;
   height: 44px;
   text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
 }
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
   color: #fff;
