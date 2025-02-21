@@ -136,13 +136,7 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
     flex-flow: column;
     padding: 1rem;
   }
-  header .navbar ul li {
-    text-align: center;
-    width: 100%;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    width: 26rem;
-  }
+ 
   header .navbar ul li a {
     display: block;
     padding: 1rem;
