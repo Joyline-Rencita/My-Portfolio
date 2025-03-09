@@ -5,7 +5,6 @@ $(document).ready(function(){
         $('.navbar').toggleClass('nav-toggle');
     });
 });
-
 // disable developer mode
 document.onkeydown = function(e) {
   if(e.keyCode == 123) {
