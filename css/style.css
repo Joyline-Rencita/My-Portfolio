@@ -36,7 +36,6 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #420177;
 }
-
 /* pre loader start */
 .loader-container {
   position: fixed;
