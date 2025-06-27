@@ -533,14 +533,6 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
 .education .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
   background: rgb(252, 252, 252);
 }
 .education .box-container .box:hover {
@@ -560,17 +552,10 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
 .education .box-container .box .content {
   position: relative;
   display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 70rem;
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #012970;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  text-align: left;
   margin-left: 1rem;
 }
 .education .box-container .box .content p {
@@ -605,12 +590,8 @@ header .navbar ul li a.active, header .navbar ul li a:hover {
 }
 .work .button-group{
   display: flex;
-  flex-wrap: wrap;
-  gap:1rem;
   margin: 2rem auto;
   width: 50%;
-  justify-content: center;
-  align-items: center;
 }
 
 .work .button-group .btn:hover{
