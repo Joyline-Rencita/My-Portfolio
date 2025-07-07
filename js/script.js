@@ -69,7 +69,6 @@ async function fetchData(type = "skills") {
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     
-
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
